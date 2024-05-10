@@ -14,10 +14,10 @@ function App() {
       })
       .catch(error => console.error('Error fetching dog image:', error));
   }, []); 
-  
+
   return (
     <div className="App">
-      <h1>Random Dog Image</h1>
+      <h1>A Dog Image</h1>
       {isLoading ? (
         <p>Loading...</p>
       ) : (
